@@ -1,0 +1,23 @@
+.body{
+	font-size: 10px;
+	font-family: strong;
+}
+.shang{
+	width:100%;
+	background-color:#E7E7E7;
+}
+.shangneirong{
+	line-height: 30px;
+	width: 1200px;
+	margin:auto;
+}
+.shangzuo{
+	float: left;
+}
+.shangyou{
+	float: right;
+}
+.tou{
+	width: 1200px;
+	height: 200px;
+}

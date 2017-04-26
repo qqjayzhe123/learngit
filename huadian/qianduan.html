@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>花店</title>
+<link rel="stylesheet" type="text/css" href="qianduan.css" />
+</head>
+<body>
+<div class="shang">
+	<div class="shangzhong">
+		<div class="shangzhongzuo">
+			<a>欢迎来到花店！</a>
+		</div>
+
+		<!-- 			<div class="shangzhongyou">
+			用户名：<input type="text" name="user">
+			密码：<input type="password" name="pass">
+			<a href="www.baidu.com">登录</a>
+			<a href="zhuce.php">注册</a>
+			<a href="zhuce.php">安全退出</a>
+		</div>
+		
+		 -->
+		
+	<form action="a.php" method="post">
+     					<div class="shangzhongyou">
+					<a >欢迎已经登录</a>
+					<input type="button" name="tuichu" value="安全退出" id='tuichu' >
+				</div>
+</form>
+
+
+
+	</div>
+
+</div>
+
+<div class="zhongxin">
+	<div class="top">
+	<a> 花店欢迎您</a>
+	</div>
+	
+	<div class="xinwen">
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	</body>
+</html>	<div class='xinwenxianshi'><a>新闻列表</a><ul><li class='li'><a href='xinwen.php?id=12'>new1</a></li></li><li class='li'><a href='xinwen.php?id=13'>??2</a></li></li><li class='li'><a href='xinwen.php?id=14'>aaaa</a></li></li><li class='li'><a href='xinwen.php?id=15'>aaaa</a></li></li><li class='li'><a href='xinwen.php?id=16'>123456</a></li></li><li class='li'><a href='xinwen.php?id=17'>新闻3</a></li></li><li class='li'><a href='xinwen.php?id=18'>玫瑰花市场火热</a></li></li><li class='li'><a href='xinwen.php?id=19'>新闻测试</a></li></li><li class='li'><a href='xinwen.php?id=20'>测试测试</a></li></li><li class='li'><a href='xinwen.php?id=21'>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈��</a></li></li><li class='li'><a href='xinwen.php?id=22'>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈��</a></li></li></ul></div>	</div>
+	
+	<div class="neirong">
+	<div class="neironga">
+	<a>产品展示</a>
+	</div>
+		<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	</body>
+</html><div class=chanpin> <img src='image/meiguihua.jpg' />&nbsp&nbsp<a 玫瑰花>玫瑰花</a></div><div class=chanpin> <img src='image/yuejihua.jpg' />&nbsp&nbsp<a 月季花>月季花</a></div><div class=chanpin> <img src='image/baihehua.jpg' />&nbsp&nbsp<a 百合花>百合花</a></div><div class=chanpin> <img src='image/lanseyaoji.jpg' />&nbsp&nbsp<a 蓝色妖姬>蓝色妖姬</a></div>	</div>
+</div>
+	<div class="di">
+	<!-- <input type="button" name="zhuce" value="注册" onclick="zhuce()"> -->
+	
+	<a class="banquan">版权归刘诗哲所有</a>
+	</div>
+
+<script>
+window.onload=function(){
+		
+		var denglu=document.getElementById('denglu')
+		var forms=document.getElementsByTagName('form')[0];
+		///alert(forms[0])
+		denglu.onclick=function(){
+				//alert("欢迎您登录成功");
+				forms.setAttribute('action','config.php');
+				forms.submit()
+				//alert(forms.getAttribute('action'));
+	    }
+		var zhuce=document.getElementById('zhuce')
+		zhuce.onclick=function(){
+				alert("恭喜您注册成功");
+				forms.setAttribute('action','qian_zhuce.php');
+				forms.submit();
+		}
+
+		var tuichu=document.getElementById('tuichu')
+		tuichu.onclick=function(){
+				alert("您已安全退出");
+				/*forms.setAttribute('action','tuichu.php');
+				forms.submit();*/
+		}
+}		
+</script>
+</body>
+</html>

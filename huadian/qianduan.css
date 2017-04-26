@@ -1,0 +1,128 @@
+/* 新闻显示 */
+body{
+	font-size: 15px;
+	padding: 0px auto;
+	margin:0px auto;
+	width: 100%;
+}
+.shang{width: 100%;background-color: #FEAF05; height: 30px;}
+.shangzhong{width: 1200px;margin:0 auto; }
+.shangzhongzuo{float: left; width: 500px; padding-top: 6px;}
+.shangzhongyou{float: right;padding-top: 6px;}
+.top{
+	text-align: center;
+	background-color: #e01222;
+	height: 50px;
+}
+.top a{
+	font-size: 25px;
+	line-height: 50px; 
+	text-align:center;
+	padding-top:0px;
+ 	margin: 0px;
+ 	font-weight: bold;
+}
+.zhongxin{width: 1200px;margin:0px auto;}
+.xinwen{
+	
+	height: 300px;
+	background-color: #e01222;
+	overflow:hidden
+}
+.xinwenxianshi{
+	height: 300px;
+	width: 300px;
+	background-color: #00ff8a;
+	white-space:nowrap;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+
+}
+.xinwenxianshi li1 {
+    line-height: 30px
+
+}
+.chanpin{
+    border: 1px solid #cbcccf;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    overflow: hidden;
+    margin-left: 5px;
+	display: inline-block;
+}
+.chanpin img{
+	width: 150px;
+	height: 140px;
+}
+.chanpin a{padding-left: 30px;}
+.mingzi{
+	width: 150px;
+	height: 50px;
+	margin: 0px;
+	padding:0px;
+}
+
+.di{
+	background-color: #005afe;
+	width:100%;
+	height: 3%;
+	bottom:0;
+	position: fixed;
+	text-align: center;
+
+}
+.banquan{
+	color: #fff; 
+
+}
+.neirong{
+	background-color: #feaf05;
+	height: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 注册页面 */
+.zhuce_quan{width: 100%; height: 100%; }
+.zhuce_zhuce{padding: 20% 40% ;background-color:#FDAE44 }
+input[type='submit']{width: 50px; height: 30px;}
+
+
+/* 新闻页面 */
+.xinwen_xinwen {
+	width: 800px;
+	padding: 0px auto;
+	margin:0px auto;
+
+}
+.xinwen_xinwen h1{
+	margin:0px auto;
+	padding-left: 70px;
+}
+
+.xinwen_xinwen p.laiyuan{
+	float: right;
+}
