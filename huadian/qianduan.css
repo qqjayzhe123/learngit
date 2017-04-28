@@ -51,10 +51,16 @@ body{
     margin-left: 5px;
 	display: inline-block;
 }
-.chanpin img{
-	width: 150px;
-	height: 140px;
+.tupian{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
 }
+.tupian img{
+	width: 100%;
+	height:100%;
+}
+
 .chanpin a{padding-left: 30px;}
 .mingzi{
 	width: 150px;

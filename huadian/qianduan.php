@@ -102,10 +102,21 @@ Ming;
 		while ($shuju2=mysql_fetch_assoc($shuju1)) {
 			$imageurl=$shuju2['image'];
 			$huaming=$shuju2['name'];
-		echo"<div class=chanpin>";
+			$str=null;
+			$str=<<<LSZ
+			<div class="chanpin">
+			<div class="tupian">
+			<img src='$imageurl' />
+			</div>
+			<a $huaming>$huaming</a><br>
+			<input type="submit" name="gouwuche" value="加入购物车">
+			</div>
+LSZ;
+		/*echo"<div class=chanpin>";
 		echo " <img src='$imageurl' />&nbsp&nbsp";
 		echo "<a $huaming>$huaming</a>";
-		echo"</div>";
+		echo"</div>";*/
+		echo $str;
 		}
 	 	?>
 	</div>
